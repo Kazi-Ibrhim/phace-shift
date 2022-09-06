@@ -1,0 +1,260 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+html,body{
+    font-family: 'Poppins', sans-serif;
+}
+/* common class */
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1300px ;
+    margin: 0 auto;
+    
+}
+
+
+/*  hrader section  */
+.head{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    padding: 1rem 0.5rem;
+}
+nav{
+    justify-content: space-between;
+}
+nav a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li{
+    margin-right: 2rem;
+}
+/* section one  */
+main{
+    width: 100%;
+    background-image: url(../img/bg.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+.para{
+    padding: 6rem 2rem;
+    text-align: center;
+}
+.para p{
+    font-size: 2rem;
+    color: #fff;
+    line-height: 3rem;
+    margin-bottom: 4rem;
+}
+.para p span{
+    text-decoration: underline;
+}
+.big-button{
+    background-color: #D84780;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.capital{
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+.six-box{
+    width: 30%;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    
+}
+.six-box p{
+    font-size: 1.5rem;
+    padding: 2rem;
+
+}
+.six-box img{
+    width: 100%;
+}
+.my-btn{
+    background-color: #D84780;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.4rem;
+    border: none;
+    color: #fff;
+    margin-bottom: 3rem ;
+   display: inline-block;
+   text-decoration: none;
+}
+
+
+.link{
+    width: 100%;
+    padding: 4rem 0;
+}
+.four-div{
+    width: 100%;
+    justify-content: space-between;
+}
+.divition{
+    width: 46%;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #fff;
+}
+.font-div{
+    width: 10%;
+    
+    
+}
+.font-div a{
+    color: #fff;
+    display: inline-block;
+    font-size: 3rem;
+}
+.font-intro{
+    width: 85%;
+    
+}
+.font-intro h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+.font-intro p{
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    color: #fff;
+}
+.bgcolor{
+    background-color: #D84780;
+}
+.info{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    text-align: center;
+    padding: 4rem 0;
+}
+.info h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+.info p{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    margin-top: 0.3rem;
+    color: #fff;
+}
+input text{
+    width: 70%;
+}
+.name{
+    width: 100%;
+    margin: 0.8rem 0;
+    padding: 0.5rem;
+}
+.textarea{
+    width:100%;
+}
+.submit{
+    padding: 1rem 4rem;
+    margin-top: 1rem;
+}
+footer{
+    background-color: black;
+}
+.last-sec{
+    text-align: center;
+    padding: 3rem 0;
+}
+.last-sec h2{
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.last-sec a{
+    display: inline-block;
+    margin-left: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:1500px ){
+    html{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:1300px ){
+    html{
+        font-size: 8px;
+    }
+    .container{
+        max-width: 1000px ;
+    }
+}
+@media only screen and (max-width:1000px ){
+    .container{
+        max-width: 800px ;
+    }
+}
+
+
+@media only screen and (max-width:850px ){
+    .container{
+        max-width: 600px ;
+    }
+    .six-box{
+        width: 45%;
+        background-color: #fff;
+        margin-bottom: 3rem;
+        
+    }
+}
+@media only screen and (max-width:650px ){
+    .container{
+        max-width: 450px ;
+    }
+    .divition{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:480px ){
+    html{
+        font-size: 7px;
+    }
+    .container{
+        max-width:350px ;
+    }
+    .six-box{
+        width: 80%;
+        margin: 0 auto;
+       margin-top: 4rem;
+    }
+    .divition{
+        margin:  0 auto;
+        padding: 2rem 0;
+    }
+    nav a{
+        font-size: 1.1rem;  
+    }
+}
